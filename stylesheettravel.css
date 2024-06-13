@@ -1,0 +1,146 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+#header1{ background-color:navy;
+        color:white;
+        text-align: center;
+		font-family:Standed
+        }
+		
+#paheader{
+	display: block;
+  background-color:gray;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  text-decoration: overline;
+  text-align: center;
+}
+#H{  position: fixed;
+  bottom: 0px;
+  right: 10px;
+   left:10px;
+}
+#home{
+	text-align: center;
+	size: 20px;
+}
+.containerhome {
+  position: static;
+  text-align: center;
+  color: white;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+   left:10px;
+background-color: rgba(0, 0, 0, 0.5); 
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+   font-size: 20px;
+   text-transform: capitalize;
+}
+#hpara{
+	border: 1px solid black;
+    margin: 25px 50px 75px 100px;
+ 
+
+}
+#Destination{ text-align:center;
+}
+
+.container_des {
+  border: 3px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.container_des::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container_des img {
+  float: left;
+  margin-right: 50px;
+  border-radius: 30%;
+}
+
+.container_des span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container_des {
+      text-align: center;
+  }
+  .container_des img {
+      margin: 250px;
+      float: none;
+      display: block;
+  }
+  h1{
+	   text-align: center;
+  }
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
