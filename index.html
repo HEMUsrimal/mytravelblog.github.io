@@ -1,123 +1,114 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="C:\Users\Dell\Desktop\stylesheettravel.css">
-<title> My Traveling Blog
-</title>
-<link rel="stylesheettravel" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Traveling Blog | Udayanga Srimal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheettravel.css">
 </head>
 <body>
-<header>
-    <h1 id=header1>Come Here to travel with me</h1>
-    <p id=paheader>Posted by udayanga srimal</p>
-    <ul id=H>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#Destination">Destination</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
-  </header>
-  <b><h2 id=home> Home </h2></b>
-  
-  <div class="containerhome">
-  <img src="Grey Simple Traveling Instagram Post.jpg" alt="Nature" style="width:100%;">
-  <div class="text-block">
-   
-  <p id=hpara>Welcome to the enchanting world of Sri Lanka, where nature's beauty knows no bounds. 
- I'm Udayanga, your guide through the picturesque wonders of my homeland, Maghiyanganaya.
- Nestled amidst verdant landscapes, Maghiyanganaya boasts a treasure trove of natural
- marvels waiting to be explored. From the majestic Rathna Waterfall, where cascading waters 
- serenade the senses, to hidden gems tucked away in lush forests, each destination unveils a 
- story of its own. Embark on a journey with me as we unravel the secrets of Sri Lanka's 
- pristine beauty, one adventure at a time.
- Let the allure of Maghiyanganaya captivate your soul and leave you longing for more. </p>
-  </div>
-</div>
- </hr>
- <h1 id="Destination">Popular Destination</h1>
-  
-  <div class="container_des">
-  <img src="dunhida.jpg" alt="pic" style="width:150px">
-  <p><span>Dunhida Waterfall</span> Badulla.</p>
-  <p>unhinda Falls is a waterfall located about 5 kilometres (3.1 mi)
-  from Badulla in the lower central hills of Sri Lanka.
 
-The waterfall, which is 64 metres (210 ft) high, gets its name from the smoky dew
- drops spray, (Dun in sinhala means mist or smoke) which surrounds the area at the foot 
- of the waterfall.
+<nav class="navbar">
+    <div class="logo">Sri Lanka Travels</div>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#Destination">Destinations</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-The fall is created by the Badulu Oya which flows through Badulla.</p>
-</div>
+<header id="home" class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('Grey Simple Traveling Instagram Post.jpg');">
+    <div class="hero-text">
+        <h1>Come Travel With Me</h1>
+        <p>Posted by <strong>Udayanga Srimal</strong></p>
+    </div>
+</header>
 
-<div class="container_des">
-  <img src="Yala.jpg" alt="Avatar" style="width:150px">
-  <p><span>Yala National Park</span> Katharagama.</p>
-  <p>
-There are six national parks and three wildlife sanctuaries in the vicinity of Yala. 
-Among the largest is Lunugamvehera National Park. The park is situated in the dry
-semi-arid climatic region and rain is received mainly during the northeast monsoon. 
-Yala hosts a variety of ecosystems ranging from moist monsoon forests to freshwater 
-and marine wetlands. It is one of the 70 Important Bird Areas (IBAs) in Sri Lanka. Yala 
-harbours 215 bird species including six endemic species of Sri Lanka. The number of mammals 
-that has been recorded from the park is 44, and it has one of the highest leopard densities 
-in the world. The area around Yala has hosted several ancient civilisations. Two important 
-pilgrim sites,
- Sithulpahuwa and Magul Vihara, are situated within the park.</p>
-</div>
+<main class="container">
+    <section class="intro">
+        <h2>Welcome to the Enchanting World of Sri Lanka</h2>
+        <p>I'm Udayanga, your guide through the picturesque wonders of my homeland, Mahiyanganaya. Nestled amidst verdant landscapes, Mahiyanganaya boasts a treasure trove of natural marvels. From the majestic Rathna Waterfall to hidden gems tucked away in lush forests, each destination unveils a story of its own.</p>
+    </section>
 
-<div class="container_des">
-  <img src="Baron_Cap_or_Thoppigala.jpg" alt="Avatar" style="width:150px">
-  <p><span>Baron Cap_or_Thoppigala.</span> Batticaloa.</p>
-  <p>The Battle of Thoppigala took place between the Sri Lanka Army and the Liberation Tigers of Tamil Eelam (LTTE) fought during a period of the first half of 2007 over control of the LTTE-dominated peak of Thoppigala (also known as Baron's Cap),
-  located 40 km northwest of Batticaloa, in eastern Sri Lanka..</p>
-</div>
+    <hr>
 
-<div class="container_des">
-  <img src="Rathna_Ella_Falls.jpg" alt="Avatar" style="width:90px">
-  <p><span>Rathna Ella Waterfall.</span> Hasalaka.</p>
-  <p>Rathna Ella is a waterfall in Hasalaka, Sri Lanka. It is 101 meters (331 ft), and is the 14th tallest waterfall in Sri Lanka.[1]: 30  It springs from the Knuckles mountain range, and supplies water for irrigation and paddy cultivation to the local community, sustaining approximately 200 farmers.[citation needed]
+    <section id="Destination">
+        <h2 class="section-title">Popular Destinations</h2>
+        
+        <div class="destination-grid">
+            <div class="destination-card">
+                <img src="dunhida.jpg" alt="Dunhida Waterfall">
+                <div class="card-content">
+                    <h3>Dunhinda Waterfall <span>Badulla</span></h3>
+                    <p>Known for its smoky dew spray (Dun means mist), this 64-meter fall is created by the Badulu Oya.</p>
+                </div>
+            </div>
 
-The waterfall is protected by an organization called "Soba Mithuro of Rathna Ella",
- which was registered officially in 2018.</p>
-</div>
+            <div class="destination-card">
+                <img src="Yala.jpg" alt="Yala National Park">
+                <div class="card-content">
+                    <h3>Yala National Park <span>Katharagama</span></h3>
+                    <p>Home to the highest leopard densities in the world, Yala hosts 215 bird species across diverse ecosystems.</p>
+                </div>
+            </div>
 
-<div class="container_des">
-  <img src="Pasikudah_beach.jpeg" alt="Avatar" style="width:150px">
-  <p><span>Pasikuda.</span> Baticalloa.</p>
-  <p>Pasikudah or Pasikuda (Tamil: பாசிக்குடா; Sinhala: පාසිකුඩා; (Pronounced Paasikkudah - historic Tamil translation "Green-Algae-Bay") is a coastal resort town located 35 kilometers northwest of Batticaloa, Batticaloa District, Sri Lanka. Historically a small Tamil hamlet alongside nearby Kalkudah, it used to be a popular tourist destination, however suffered huge devastation following the 2004 Indian Ocean tsunami and the Sri Lankan Civil War.[1] Foreign travel to Pasikudah has recently increased due to growth in investment and development. It is home to the Pasikudah Mariamman temple. Pasikudah is easily accessible from the cities of Trincomalee and Batticaloa. The nearest airport to Pasikudah is Batticaloa Airport,
-  which has scheduled flights operating from Colombo Bandaranaike International Airport..</p>
-</div>
+            <div class="destination-card">
+                <img src="Baron_Cap_or_Thoppigala.jpg" alt="Thoppigala">
+                <div class="card-content">
+                    <h3>Baron's Cap / Thoppigala <span>Batticaloa</span></h3>
+                    <p>A historic peak located 40km northwest of Batticaloa, offering unique vistas of the eastern landscape.</p>
+                </div>
+            </div>
 
+            <div class="destination-card">
+                <img src="Rathna_Ella_Falls.jpg" alt="Rathna Ella">
+                <div class="card-content">
+                    <h3>Rathna Ella Waterfall <span>Hasalaka</span></h3>
+                    <p>The 14th tallest waterfall in Sri Lanka (101m), springing from the Knuckles mountain range.</p>
+                </div>
+            </div>
 
+            <div class="destination-card">
+                <img src="Pasikudah_beach.jpeg" alt="Pasikuda">
+                <div class="card-content">
+                    <h3>Pasikuda <span>Batticaloa</span></h3>
+                    <p>A world-renowned coastal resort town famous for its shallow turquoise waters and coral reefs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <hr>
 
-  <div style="text-align:center">
-    <h1 id= contact>Contact Us</h1>
-    <p>Swing by for a cup of coffee, or leave us a message:</p>
- 
-      <img src="Incoming Call Travel Instagram Post.png" width="100%"   opacity="0.5">
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <div class="about-card">
+            <h3>Udayanga Srimal</h3>
+            <p><strong>Software Engineer (UG)</strong></p>
+            <p>Member of IEEE</p>
+            <div class="details">
+                <p>Born: 20/11/2002 | Nationality: Sinhala</p>
+            </div>
+        </div>
+    </section>
 
-   <h2>Joing with our facebook</h2>
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Swing by for a cup of coffee, or leave us a message:</p>
+        <div class="contact-image">
+            <img src="Incoming Call Travel Instagram Post.png" alt="Contact Us">
+        </div>
+        <h3>Join us on Facebook</h3>
+        <a href="https://www.facebook.com/udayangasrimal2002?mibextid=ZbWKwL" class="fa fa-facebook"></a>
+    </section>
+</main>
 
-<a href="https://www.facebook.com/udayangasrimal2002?mibextid=ZbWKwL" class="fa fa-facebook"></a>
-   </div>
- 
- <div align="center">
-<h1 id="about">About</h1>
-
-      <h2>Udayanga Srimal</h2> 
-      <p>Software Engineer (UG)</p> 
-      <p>Member of IEEE	</p>
-	  <p>Date Of Birth - 20/11/2002</p>
-	    <p>Gender - Male</p>
-		<p>Maritial Status - Unmarried</p>
-		  <p>Nationality - Sinhala</p>
-   
-</body><footer>
-  <p>--------------</hr>lll
-</p> 
+<footer>
+    <p>&copy; 2026 Udayanga Srimal Travel Blog</p>
 </footer>
 
-
+</body>
 </html>
-
